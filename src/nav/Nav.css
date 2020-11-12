@@ -1,0 +1,35 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:65px;
+    background-color: rgb(24, 23, 23);
+    color:white;
+    padding-right: 1rem;
+}
+.nav-buttons{
+    color:white;
+    align-items: center;
+    height:60px;
+    padding-left:1rem;
+    padding-right: 1rem;
+    background-color:rgb(24, 23, 23);
+    border:none;
+    font-size:18px;
+    justify-content: right;
+}
+.nav-icon-buttons{
+    color:white;
+    align-items: center;
+    height:60px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    background-color:rgb(24, 23, 23);
+    border:none;
+    font-size:18px;
+    justify-content: right;
+}
+
+
+

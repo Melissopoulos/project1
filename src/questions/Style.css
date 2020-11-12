@@ -1,0 +1,70 @@
+.form-question-images{
+    width: 50%;
+    margin-left: 320px;
+    margin-right: 380px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.image-box{
+    width: 65%;
+    margin: auto;
+    
+}
+.row-images{
+    display: flex;
+    flex-direction:row;
+}
+.suggestion-image{
+    width: 220px;
+    height: 250px;
+    margin:5px;
+}
+.suggestion-image-border{
+    width: 220px;
+    height: 250px;
+    margin:5px;
+    border-style: outset;
+    border-color: rgb(15, 30, 139);
+    border-width:6px;
+    opacity: 50%;
+}
+.style-header-brands{
+    margin-top:55px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.brands{
+    width:80%;
+    margin-right:200px;
+    margin-left: 250px;
+}
+.avatar-image{
+    width:45%;
+    margin:438px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    align-content: center;
+}
+.buttons-images-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.buttons-avatar-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 73px;
+}
+.buttons-avatar{
+    padding: 10px 15px 10px 15px;
+    margin:4px;
+    background-color: white;
+    border-style: outset;
+    border-color: black;
+}
