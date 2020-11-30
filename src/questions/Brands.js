@@ -23,7 +23,7 @@ import './Style.css'
 
 function Brands(){
     const [brands,setBrands]=useState([
-        allsaints,self,balenciaga,bennett,lulemon,reform,fendi,kenzo,massimodutti,zimmermann,offwhite,realisation
+        massimodutti,zimmermann,offwhite,realisation,lulemon,reform,fendi,kenzo,bennett,allsaints,balenciaga,salvatore
     ])
     const firstThreeBrands = brands.slice(0,4);
     const secondThreeBrands = brands.slice(4,8);
@@ -35,7 +35,7 @@ function Brands(){
         <h2 className='form-question-images'>
              Where do you typically shop - select 5 brands below        
         </h2>
-        <div className='image-box'>
+        <div className='brand-box'>
             <div className='row-images'>
                 {firstThreeBrands.map((brand)=>(<Brand src={brand}/>))}
             </div>

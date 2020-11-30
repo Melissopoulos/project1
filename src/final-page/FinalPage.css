@@ -13,11 +13,9 @@
 }
 .grid-item-2{
     grid-column: span 1;
-    margin-top: 40px;
-    margin-left: 100px;
     position:fixed;
+    top:100px;
     right:120px;
-    top:120px
 }
 .dropdown-container{
     width: 43%;

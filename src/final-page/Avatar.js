@@ -1,15 +1,19 @@
 import React from 'react'
-import avatarFinalPage from './images/avatar-final-page.png'
+import './FinalPage.css'
 
 
 
 
-function Avatar(){
+
+function Avatar(props){
+    
     return(
-        <div>
-           <img src={avatarFinalPage} style={{width:'250px',height:'350px'}}/>
+        <div className='grid-item-2'>
+           <img src={props.src} style={{width:'320px',height:'420px'}}/>
         </div>
     )
+  
+   
 }
 
 export default Avatar

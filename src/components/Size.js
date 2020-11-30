@@ -41,6 +41,9 @@ export default function Size() {
   const handleOpen = () => {
     setOpen(true);
   };
+  const consoleGender = () => {
+    console.log(user.gender)
+  }
 
  
   if(user.gender==='female'){
@@ -57,6 +60,7 @@ export default function Size() {
           onOpen={handleOpen}
           value={size}
           onChange={handleChange}
+          onClick={consoleGender}
         >
           <MenuItem name="UK4" value='UK4'>UK4</MenuItem>
           <MenuItem name="UK6" value='UK6'>UK6</MenuItem>
@@ -87,6 +91,7 @@ export default function Size() {
             onOpen={handleOpen}
             value={size}
             onChange={handleChange}
+            onClick={consoleGender}
           >
             <MenuItem name="XS" value='XS'>XS</MenuItem>
             <MenuItem name="S" value='S'>S</MenuItem>

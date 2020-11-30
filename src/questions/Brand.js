@@ -13,7 +13,7 @@ export default function Brand(props){
 
     return(
         <div>
-            <img className={isSelected.active ?'suggestion-image-border':'suggestion-image'} src={props.src} onClick={changeSelection}/>
+            <img className={isSelected.active ?'suggestion-brand-border':'suggestion-brand'} src={props.src} onClick={changeSelection}/>
         </div>
     )
     

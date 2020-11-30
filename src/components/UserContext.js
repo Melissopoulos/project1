@@ -3,7 +3,7 @@ import React, { createContext, useState } from 'react'
 export const UserContext = createContext();
 
 export const UserProvider = props => {
-    const [user,setUser]= useState([
+    const [user,setUser]= useState(
         {
             gender:'female',
             age:'a',
@@ -13,7 +13,7 @@ export const UserProvider = props => {
             bodyType:'1',
             style:'',
         }
-    ])
+    )
     return(
         <UserContext.Provider value={[user,setUser]}>
             {props.children}

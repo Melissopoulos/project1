@@ -10,7 +10,7 @@ import Images from '../questions/Images'
 import Brands from '../questions/Brands'
 import './Form.css'
 import {UserProvider} from './UserContext.js'
-import AvatarPage from '../questions/AvatarPage'
+import UploadImage from '../questions/UploadImage'
 
 
 
@@ -117,7 +117,7 @@ function Form(){
         return(
           <div>
             <Brands />
-            <div className="buttons-images-box">
+            <div className="buttons-brands-box">
               <button className="buttons" onClick={prevStep}>Prev</button>
               <button className="buttons" onClick={nextStep}>Next</button>
             </div>
@@ -125,10 +125,11 @@ function Form(){
         )
         case 10: 
         return(
-          <div>
-            <AvatarPage />
+          <div >
+            <UploadImage />
           </div>
         )
+       
     }
    
 }
