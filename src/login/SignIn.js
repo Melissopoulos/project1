@@ -12,6 +12,9 @@ import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
+import { Facebook } from 'react-feather';
+import { FcGoogle } from 'react-icons/fc';
+
 
 
 function Copyright() {
@@ -51,7 +54,8 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'center',
     color:'grey',
     marginTop: theme.spacing(2),
-  }
+  },
+  
 }));
 
 export default function SignIn() {
