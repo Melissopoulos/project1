@@ -10,7 +10,7 @@ export default makeStyles(()=>({
     header:{
         ontFamily: 'Georgia Times New Roman serif',
         fontWeight: 'normal',
-        marginLeft: '430px',
+        marginLeft: '455px',
         marginTop: '30px',
         marginBottom: '30px'
     }

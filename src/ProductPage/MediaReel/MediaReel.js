@@ -16,7 +16,7 @@ function MediaReel(){
 
     return(
         <div>
-          <h2 className={classes.header}>SOCIAL MEDIA REEL</h2>
+          <h2 className={classes.header}>AS WORN BY YOU</h2>
           <img src={socialMedia1} className={classes.socialMediaImage}/>
           <img src={socialMedia2} className={classes.socialMediaImage}/>
           <img src={socialMedia3} className={classes.socialMediaImage}/>

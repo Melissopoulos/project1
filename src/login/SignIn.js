@@ -14,6 +14,8 @@ import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import { Facebook } from 'react-feather';
 import { FcGoogle } from 'react-icons/fc';
+import { useHistory } from "react-router-dom";
+
 
 
 
@@ -61,6 +63,12 @@ const useStyles = makeStyles((theme) => ({
 export default function SignIn() {
   const classes = useStyles();
 
+  const history = useHistory();
+
+    function handleClick() {
+      history.push('/form');
+    }  
+
 
   return (
     <Container component="main" maxWidth="xs">
@@ -106,6 +114,7 @@ export default function SignIn() {
             variant="contained"
             color="primary"
             className={classes.submit}
+            onClick={handleClick}
           >
            Sign In
           </Button>
